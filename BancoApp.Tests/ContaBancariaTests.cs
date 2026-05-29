@@ -40,7 +40,7 @@ public class ContaBancariaTests
 
         origem.Transferir(destino, 50);
 
-        Assert.Equal(150, origem.Saldo);
+        Assert.Equal(100, origem.Saldo);
         Assert.Equal(150, destino.Saldo);
     }
 }
